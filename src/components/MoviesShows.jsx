@@ -197,7 +197,7 @@ const IconButton = styled.button`
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background: #e50914;
+  background: #511F5C;
   border: none;
   color: white;
   display: flex;
@@ -208,7 +208,7 @@ const IconButton = styled.button`
 
   &:hover {
     transform: scale(1.1);
-    background: #f40612;
+    background: #6A2A7A;
   }
 
   &.play {
@@ -535,7 +535,7 @@ const Button = styled.button`
 `;
 
 const PrimaryButton = styled(Button)`
-  background-color: #e50914;
+  background-color: #511F5C;
   color: white;
   border: none;
 `;
@@ -791,7 +791,7 @@ const MoviesShows = () => {
                 <FaPlay />
               </IconButton>
               <IconButton onClick={(e) => handleAddToListClick(e, movie)}>
-                <FaPlus />
+                <FaPlus style={{ color: 'white' }} />
               </IconButton>
             </CardButtons>
           </Overlay>
