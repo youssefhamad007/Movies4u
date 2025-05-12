@@ -1,6 +1,5 @@
 {
-  "name": "graduationproject",
-  "homepage": "https://youssefhamad007.github.io/Movies4u/",
+  "name": "uitest",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,14 +7,33 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@heroicons/react": "^2.2.0",
+    "@heroui/accordion": "^2.2.14",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@tabler/icons-react": "^3.31.0",
+    "@tailwindcss/cli": "^4.1.3",
+    "@tailwindcss/postcss": "^4.1.3",
+    "@tailwindcss/vite": "^4.1.3",
+    "axios": "^1.6.7",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.11.0",
+    "motion": "^12.7.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-phone-number-input": "^3.4.12",
+    "react-router-dom": "^7.6.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.18",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

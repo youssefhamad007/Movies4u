@@ -1,68 +1,137 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.cards{
+    max-height: 175px;
+    max-width: 175px;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+.containermovie{
+background-color: black;
+position: relative;
 }
-a:hover {
-  color: #535bf2;
+ .shadow{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.28);
+    width: 100%;
+    height: 83%;
+    top: 0;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+#root{
+    background-color: #040404;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.navbar{
+    background-color: aliceblue;
 }
+.container li{
+    border: solid 2px transparent;
+    padding: 7px;
+    border-radius: 10px;
+    
+}
+.container li:hover{
+    background: #1A1A1A;
+}
+.container li:active{
+    background: #1A1A1A;
+}
+.Title{
+    margin-top: -100px;
+    z-index: 20;
+}
+.p{
+    width: 60vw;
+    color:#999999;
+}
+.same {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url('https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg') no-repeat center center/cover;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+}
+.startwatching{
+    border: solid 1px transparent;
+    border-radius: 5px;
+    background-color: #511F5C;
+    color: white;
+    cursor: pointer;
+    width: clamp(2rem, 20vw, 10rem); /* Scales between 8rem and 10rem based on viewport */
+    height: clamp(2.5rem, 5vw, 3rem); /* Scales between 2.5rem and 3rem */
+    font-size: clamp(.60rem,1vw, .80rem); /* Scales between 0.75rem and 1rem */
+    transition: background-color 0.2s ease;
+    margin-top: 1%;
+}
+.startwatching:hover{
+    background-color: #511f5c9a;
+}
+.initial-bg:hover{
+  opacity: 0;
+}
+.bege{
+  background: #000000;
+background: linear-gradient(nulldeg,rgba(0, 0, 0, 1) 0%, rgba(171, 103, 210, 1) 100%);
+}
+.accord{
+    background-color: black;
+}
+.num{
+    border: solid 2px transparent;
+    border-radius: 5px;
+    background-color: #1F1F1F;
+    padding: 7px;
+}
+.askque {
+    border: solid 1px transparent;
+    border-radius: 5px;
+    background-color: #511F5C;
+    color: white;
+    cursor: pointer;
+    width: clamp(8rem, 15vw, 10rem); /* Scales between 8rem and 10rem based on viewport */
+    height: clamp(2.5rem, 5vw, 3rem); /* Scales between 2.5rem and 3rem */
+    font-size: clamp(0.75rem, 1.5vw, 1rem); /* Scales between 0.75rem and 1rem */
+    transition: background-color 0.2s ease;
+  }
+  
+  .askque:hover {
+    background-color: #6A2A7A; /* Slightly lighter purple on hover */
+  }
+  
+  /* Optional: Adjust for larger screens */
+  @media (min-width: 640px) {
+    .askque, title {
+      width: clamp(10rem, 12vw, 12rem);
+      height: clamp(3rem, 4vw, 3.5rem);
+      font-size: clamp(0.875rem, 1vw, 1rem);
+    }
+    
+  }
+  @media (max-width: 640px){
+    .startwatching .hiddensmall{
+        display: none;
+    }
+    .startwatching{
+        width: 40px;
+        height: 30px;
+    }
+    .sesd{
+        flex-direction: column;
+    }
+    .nonone{
+        max-width: 80vw;
+    }
+    .planscard{
+        flex-wrap: wrap;
+    }
+  }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.planscard button {
+  background-color: #511F5C;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: background-color 0.3s ease;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.planscard button:hover {
+  background-color: #6A2A7A;
 }
