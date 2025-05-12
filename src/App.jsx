@@ -49,7 +49,7 @@ const AnimatedRoutes = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Movies4u">
       <div className="min-h-screen bg-black">
         <Navbar />
         <AnimatedRoutes />
