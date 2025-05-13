@@ -120,18 +120,3 @@ background: linear-gradient(nulldeg,rgba(0, 0, 0, 1) 0%, rgba(171, 103, 210, 1) 
         flex-wrap: wrap;
     }
   }
-
-.planscard button {
-  background-color: #511F5C;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.planscard button:hover {
-  background-color: #6A2A7A;
-}

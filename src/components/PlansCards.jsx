@@ -17,10 +17,10 @@ const PlansCards = () => {
           </div>
           <div className='flex flex-col sm:flex-row gap-4 w-full justify-center relative z-10'>
             <Link to="/subscriptions" className='w-full sm:w-[160px] relative z-10'>
-              <button className='bg-[#141414] w-full h-10 text-white border rounded border-[#262626] text-sm sm:text-[1vw] transition-all duration-200 hover:bg-[#1A1A1A] hover:scale-105 hover:shadow-lg hover:shadow-[#262626]/20 active:scale-95'>Start Free Trial</button>
+              <button className="bg-[#511F5C] w-full h-10 text-white border-none rounded text-sm sm:text-[1vw] transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:bg-[#6A2A7A] focus:outline-none">Start Free Trial</button>
             </Link>
             <Link to="/subscriptions" className='w-full sm:w-[140px] relative z-10'>
-              <button className='bg-[#511F5C] w-full h-10 text-white border rounded border-transparent text-sm sm:text-[1vw] transition-all duration-200 hover:bg-[#6A2A7A] hover:scale-105 hover:shadow-lg hover:shadow-[#511F5C]/20 active:scale-95'>Choose Plan</button>
+              <button className="bg-[#511F5C] w-full h-10 text-white border-none rounded text-sm sm:text-[1vw] transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:bg-[#6A2A7A] focus:outline-none">Choose Plan</button>
             </Link>
           </div>
         </div>
@@ -37,10 +37,10 @@ const PlansCards = () => {
           </div>
           <div className='flex flex-col sm:flex-row gap-4 w-full justify-center relative z-10'>
             <Link to="/subscriptions" className='w-full sm:w-[160px] relative z-10'>
-              <button className='bg-[#141414] w-full h-10 text-white border rounded border-[#262626] text-sm sm:text-[1vw] transition-all duration-200 hover:bg-[#1A1A1A] hover:scale-105 hover:shadow-lg hover:shadow-[#262626]/20 active:scale-95'>Start Free Trial</button>
+              <button className="bg-[#511F5C] w-full h-10 text-white border-none rounded text-sm sm:text-[1vw] transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:bg-[#6A2A7A] focus:outline-none">Start Free Trial</button>
             </Link>
             <Link to="/subscriptions" className='w-full sm:w-[140px] relative z-10'>
-              <button className='bg-[#511F5C] w-full h-10 text-white border rounded border-transparent text-sm sm:text-[1vw] transition-all duration-200 hover:bg-[#6A2A7A] hover:scale-105 hover:shadow-lg hover:shadow-[#511F5C]/20 active:scale-95'>Choose Plan</button>
+              <button className="bg-[#511F5C] w-full h-10 text-white border-none rounded text-sm sm:text-[1vw] transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:bg-[#6A2A7A] focus:outline-none">Choose Plan</button>
             </Link>
           </div>
         </div>
@@ -57,10 +57,10 @@ const PlansCards = () => {
           </div>
           <div className='flex flex-col sm:flex-row gap-4 w-full items-center justify-center relative z-10'>
             <Link to="/subscriptions" className='w-full sm:w-[160px] relative z-10'>
-              <button className='bg-[#141414] w-full h-10 text-white border rounded border-[#262626] text-sm sm:text-[1vw] transition-all duration-200 hover:bg-[#1A1A1A] hover:scale-105 hover:shadow-lg hover:shadow-[#262626]/20 active:scale-95'>Start Free Trial</button>
+              <button className="bg-[#511F5C] w-full h-10 text-white border-none rounded text-sm sm:text-[1vw] transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:bg-[#6A2A7A] focus:outline-none">Start Free Trial</button>
             </Link>
             <Link to="/subscriptions" className='w-full sm:w-[140px] relative z-10'>
-              <button className='bg-[#511F5C] w-full h-10 text-white border rounded border-transparent text-sm sm:text-[1vw] transition-all duration-200 hover:bg-[#6A2A7A] hover:scale-105 hover:shadow-lg hover:shadow-[#511F5C]/20 active:scale-95'>Choose Plan</button>
+              <button className="bg-[#511F5C] w-full h-10 text-white border-none rounded text-sm sm:text-[1vw] transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:bg-[#6A2A7A] focus:outline-none">Choose Plan</button>
             </Link>
           </div>
         </div>

@@ -22,6 +22,7 @@ const SupportPage = () => {
   const [agree, setAgree] = useState(false);
   const [moviePosters, setMoviePosters] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [messageSent, setMessageSent] = useState(false);
 
   // Fetch movies for the image grid
   useEffect(() => {
@@ -96,7 +97,9 @@ const SupportPage = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', { ...formData, phoneNumber });
+    setFormData((prev) => ({ ...prev, message: '' }));
+    setMessageSent(true);
+    setTimeout(() => setMessageSent(false), 2000);
   };
 
   return (
@@ -211,6 +214,9 @@ const SupportPage = () => {
                   className="w-full p-3 bg-[#141414] text-white rounded-md placeholder-[#999999] support-textarea h-32 resize-none"
                   required
                 />
+                {messageSent && (
+                  <span className="text-green-400 text-sm mt-1">Message sent!</span>
+                )}
               </div>
               <div className="flex items-center space-x-2">
                 <input
@@ -230,9 +236,9 @@ const SupportPage = () => {
               <button
                 type="submit"
                 disabled={!agree}
-                className={`w-full sm:w-auto py-2 px-6 rounded-lg text-white font-semibold transition-colors duration-200 support-button ${
+                className={`w-full sm:w-auto py-2 px-6 rounded-lg text-white font-semibold transition-colors duration-200 ${
                   agree
-                    ? 'bg-purple-500 hover:bg-purple-600'
+                    ? 'bg-[#511F5C] hover:bg-[#6A2A7A]'
                     : 'bg-gray-600 cursor-not-allowed'
                 }`}
               >
